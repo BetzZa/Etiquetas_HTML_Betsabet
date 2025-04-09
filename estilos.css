@@ -6,7 +6,83 @@ body {
     padding: 0;
 }
 h1 {
-    color: #333;
+    color: #333333;
     text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espacio entre imagen y texto */
 }
-    
+
+.logo {
+    width: 40px;  /* Tamaño de la imagen */
+    height: auto; /* Mantiene proporción */
+}
+nav 
+ {
+    background-color:#363e8a;
+  float: left;
+   margin:0px;
+   padding:0px;
+   width: 100%;
+	font-family:Arial;
+}
+.navegacion ul
+{
+  list-style:none;
+}
+
+			
+.navegacion >ul, nav
+{
+	list-style:none;
+  margin: 0px;
+}
+			
+.navegacion > li
+{
+  list-style:none;
+     float:left;
+}
+			
+.navegacion li a 
+{
+    background-color:#363e8a;
+    font-family: Arial;
+    color:#ffffff;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+}
+			
+.navegacion li a:hover 
+{
+    background-color:#484572;
+}
+			
+.navegacion li ul 
+{
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+			
+.navegacion li:hover > ul 
+{
+    display:block;
+}
+			
+.navegacion li ul li 
+{
+    position:relative;
+}
+			
+.navegacion li ul li ul 
+{
+    right:-140px;
+    top:0px;
+}
+
+#contenedor
+{
+   align: center;
+}  
